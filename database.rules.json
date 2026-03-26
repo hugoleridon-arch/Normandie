@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "presences": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}
