@@ -5,11 +5,13 @@ import { ref, onValue, set, remove } from "firebase/database";
 /* ─── Données famille ─── */
 const MEMBERS = [
   "Joëlle","Amélie","Charles","Hugo","Davinia",
-  "Giulia","Nicolas","Jeanne","Marine","Jérémy"
+  "Giulia","Nicolas","Jeanne","Marine","Jérémy",
+  "Amis"
 ];
 const COLORS = [
   "#FF6B6B","#FF9F43","#FECA57","#48CAE4","#A29BFE",
-  "#6BCB77","#F08A5D","#DDA0DD","#4D80E4","#F78FB3"
+  "#6BCB77","#F08A5D","#DDA0DD","#4D80E4","#F78FB3",
+  "#FF00A8"
 ];
 const MONTHS = ["Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Août","Septembre","Octobre","Novembre","Décembre"];
 const DAYS   = ["Dim","Lun","Mar","Mer","Jeu","Ven","Sam"];
